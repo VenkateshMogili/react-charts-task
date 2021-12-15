@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.chart-heading{
+  position:relative;
+  top:50%;
+}
+.dot{
+  width:15px;
+  height:15px;
+  border-radius: 100px;
+  border:none;
+}
+.custom-legend{
+  position:absolute;
+  left:10px;
+  background-color: lightgray;
+}
+.custom-legend::after{
+  content:"";
+  width:20px;
+  height:20px;
+  top: 5em;
+  left:3px;
+  position: absolute;
+  border-top:5px solid transparent;
+  border-bottom:5px solid lightgray;
+  border-right:5px solid lightgray;
+  border-left:5px solid transparent;
+  transform: rotate(45deg);
+  background-color: lightgray;
+}
+.custom-legend-bottom{
+  position:relative;
+  top:300px;
+  left:10px;
+}
