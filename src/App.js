@@ -8,8 +8,8 @@ import CustomLegend from "./components/CustomLegend";
 function App() {
   return (
     <div className="App">
-      <h1>Employee Portal - Dashboard</h1>
-      <div className="d-flex justify-content-center">
+      <h1 className="header">Employee Portal - Dashboard</h1>
+      <div className="d-lg-flex justify-content-center col-sm-12 col-xs-12">
         <Card>
           <Heading title="OKR Progress" />
           <div>
